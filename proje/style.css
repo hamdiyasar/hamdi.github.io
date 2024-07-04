@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("");
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    margin-top: 20px;
+}
+
+.product-item {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.product-item img {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
